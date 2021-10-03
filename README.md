@@ -49,7 +49,7 @@ This section explains the prerequisite for setting up ci/cd pipeline using jenki
 
 - Secondly, make the following changes in the **Jenkinsfile** of this repo as per your requirement and environment:
   
-      - app_artifact_bucket = "app-artifact-bucket-spay"                                                // S3 bucket to store Artifact
+      - app_artifact_bucket = "app-artifact-bucket-spay"                   // S3 bucket to store Artifact
       - terraform_state_bucket = "terraform-state-file-storage-surepay"    // S3 bucket to store terraform state file
       - Set aws-credential in Jenkins as shown below diagram
   
